@@ -16,14 +16,46 @@ header nav ul li a {
 
 .work-sample {
  position: relative;
- width: 100%;
+
 }
 
 .work-text {
-    position:absolute;
+    position: absolute;
     left: 0px;
     bottom: 10px;
     background-color: turquoise;
     font-size: xx-large;
 }
+
+section h2 {
+    color: red;
+    display: flex;
+    justify-content: right;
+}
+
+footer h2 {
+    color: red;
+    
+}
+
+.row {
+    display: flex;
+}
+
+.left-column {
+    display:flex;
+    flex: 20%;
+    border-right: solid 3px black; 
+    justify-content: right;
+}
+
+
+.right-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
 
