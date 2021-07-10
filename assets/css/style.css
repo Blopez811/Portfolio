@@ -8,9 +8,22 @@ header nav ul {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-
 }
 
 header nav ul li a {
     padding: 10px 15px;
 }
+
+.work-sample {
+ position: relative;
+ width: 100%;
+}
+
+.work-text {
+    position:absolute;
+    left: 0px;
+    bottom: 10px;
+    background-color: turquoise;
+    font-size: xx-large;
+}
+
