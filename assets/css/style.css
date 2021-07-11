@@ -46,7 +46,7 @@ footer h2 {
 .left-column {
     display:flex;
     flex-wrap: wrap;
-    flex: 20%;
+    flex: 10%;
     border-right: solid 3px black; 
     justify-content: right;
 }
@@ -57,11 +57,32 @@ footer h2 {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .self {
+    width: 100%;
+    height: auto;   
+}
+
+@media screen and (max-width: 1302px) {
+    
+.big-image {
+    width: 100%;
+    height: auto;
+}
+
+.small-image {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    
+}
+}
+
+@media screen and (max-width: 730px) {
+    .self {
+        width: 70%;
+        height: auto;
+    }
 }
