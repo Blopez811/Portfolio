@@ -16,13 +16,14 @@ header nav ul li a {
 
 .work-sample {
  position: relative;
-
+ margin: 10px;
+ border: turquoise 3px solid;
 }
 
 .work-text {
     position: absolute;
-    left: 0px;
-    bottom: 10px;
+    left: 15px;
+    bottom: 25px;
     background-color: turquoise;
     font-size: xx-large;
 }
@@ -44,6 +45,7 @@ footer h2 {
 
 .left-column {
     display:flex;
+    flex-wrap: wrap;
     flex: 20%;
     border-right: solid 3px black; 
     justify-content: right;
@@ -55,6 +57,13 @@ footer h2 {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin-bottom: 10px;
+}
+
+.self {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 
