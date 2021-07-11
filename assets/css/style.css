@@ -14,10 +14,13 @@ header nav ul li a {
     padding: 10px 15px;
 }
 
-.work-sample {
- position: relative;
+.flex-container {
+ display: flex;
+ flex-wrap: wrap;
+ width: 45%;
  margin: 10px;
  border: turquoise 3px solid;
+ background-size:cover;
 }
 
 .work-text {
@@ -52,7 +55,7 @@ footer h2 {
 }
 
 
-.right-column {
+.flex-item {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,7 +66,7 @@ footer h2 {
 .self {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 
