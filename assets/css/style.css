@@ -1,7 +1,7 @@
 * {
     background-color: rgb(212, 211, 211);
 }
-
+/*Header top of page styling*/
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -13,13 +13,13 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
 }
-
+/*flex item containers for each project*/
 .work-sample {
  position: relative;
  margin: 10px;
  border: turquoise 3px solid;
 }
-
+/*text found inside the flex items*/
 .work-text {
     position: absolute;
     left: 15px;
@@ -27,7 +27,7 @@ header nav ul li a {
     background-color: turquoise;
     font-size: xx-large;
 }
-
+/*Styling for left column titles*/
 section h2 {
     color: red;
     display: flex;
@@ -42,7 +42,7 @@ footer h2 {
 .row {
     display: flex;
 }
-
+/*this is layout css for the columns found in the <main> tag*/
 .left-column {
     display:flex;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@ footer h2 {
     width: 100%;
     height: auto;   
 }
-
+/* media queries to fit images*/
 @media screen and (max-width: 1302px) {
     
 .big-image {
